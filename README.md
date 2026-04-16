@@ -1,6 +1,7 @@
 Blinkit Sales Dashboard (Power BI)
 
 🚀 Project Overview:
+
 This project presents a comprehensive sales and business performance dashboard for Blinkit using Power BI. The goal is to analyze sales trends, customer behavior, and product performance to generate actionable insights for business decision-making.
 
 The dashboard is built using a structured dataset and focuses on key performance indicators (KPIs) relevant to retail analytics.
