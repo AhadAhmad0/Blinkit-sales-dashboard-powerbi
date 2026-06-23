@@ -1,55 +1,43 @@
-Blinkit Sales Dashboard (Power BI)
+# Blinkit Sales Analytics Dashboard — Power BI
 
-🚀 Project Overview:
+An interactive Power BI dashboard analyzing Blinkit's grocery sales performance across outlet types, locations, item categories, and fat content. Built to help business stakeholders identify top-performing outlets, underperforming categories, and sales trends over time.
 
-This project presents a comprehensive sales and business performance dashboard for Blinkit using Power BI. The goal is to analyze sales trends, customer behavior, and product performance to generate actionable insights for business decision-making.
+## Dashboard Preview
 
-The dashboard is built using a structured dataset and focuses on key performance indicators (KPIs) relevant to retail analytics.
+![Blinkit Dashboard](dashboard_preview.png)
 
-🎯 Problem Statement:
-Blinkit needs a clear understanding of:
-- Sales performance across products and categories
-- Customer purchasing patterns
-- Product ratings and overall satisfaction
+## Problem Statement
 
-However, raw data alone does not provide meaningful insights.
-This project solves that by transforming raw data into an interactive dashboard for better decision-making.
+Blinkit operates across multiple outlet types, sizes, and city tiers — making it difficult to pinpoint where sales are concentrated, which product categories drive revenue, and how outlet establishment trends impact long-term performance. This dashboard consolidates all key metrics into a single, filterable view for faster decision-making.
 
-Images Folder Explanation:
-The "images/" folder contains a preview of the dashboard:
-- "dashboard_preview.png" → Provides a complete overview of the Blinkit Sales Dashboard, showcasing KPIs, charts, and overall layout.
-This image helps viewers quickly understand the project without opening the Power BI file.
+## Key Insights
 
-📌 Key KPIs Tracked:
-- 💰 Total Sales
-- 📊 Average Sales
-- 📦 Number of Items Sold
-- ⭐ Average Rating
+- **Total Sales: $1.20M** across 9K items with an average rating of 4.0
+- **Tier 3 outlets lead in sales ($472K)** — outperforming Tier 1 ($336K), suggesting stronger demand in smaller cities
+- **Fruits, Snack Foods, and Household items** are the top-selling categories at $0.18M each
+- **Supermarket Type 1 dominates** with 5,577 items and $787.55K in total sales — far ahead of all other outlet types
+- **Sales peaked in 2018 at $205K** then declined — indicating a post-expansion slowdown worth investigating
+- **Low Fat products ($776K) vs Regular ($425K)** — health-conscious purchasing is a clear trend
+- **Regular fat items perform better in Tier 3** — regional preference differences exist across city tiers
 
-🔍 Key Insights:
-- High-rated products tend to generate higher sales volume, indicating strong customer satisfaction impact.
-- Certain product categories contribute disproportionately to total revenue, highlighting key revenue drivers.
-- Sales distribution shows variation across item types, suggesting opportunities for inventory optimization.
-- A few categories dominate performance, indicating potential dependency risks.
+## Business Impact (Hypothetical)
 
-💡 Business Impact:
-- Helps businesses identify top-performing products and categories
-- Enables data-driven inventory planning
-- Improves customer satisfaction strategies using rating insights
-- Supports revenue optimization by focusing on high-performing segments
+- Prioritizing Tier 3 outlet expansion could yield a projected 15–20% revenue increase given their outsized sales performance
+- Investing in Fruits, Snack Foods, and Household inventory across all tiers could reduce stockouts in high-demand categories
+- Addressing the post-2018 sales decline through targeted promotions or outlet restructuring could recover an estimated $30–50K annually
 
-Even as a hypothetical scenario, this dashboard demonstrates how data can drive strategic business decisions.
+## Features
 
-🛠️ Tools & Technologies Used:
-- Power BI (Dashboard & Visualization)
-- Microsoft Excel (Data Source)
-- SQL Concepts (for analysis understanding)
+- Dynamic filter panel: Outlet Location Type, Outlet Size, Item Type
+- KPI cards: Total Sales, Avg Sales, No. of Items, Avg Rating
+- Sales breakdown by Fat Content, Item Type, Outlet Size, Outlet Location, Outlet Type, and Establishment Year
 
-📈 Conclusion:
+## Tools Used
 
-This project showcases the ability to convert raw data into meaningful business insights using visualization tools. It highlights both technical and analytical skills required for a Data Analyst role.
+- **Power BI Desktop** — dashboard design and DAX measures
+- **Dataset** — Blinkit Grocery Data (Excel)
 
-🔗 Future Improvements:
-- Integration with real-time data
-- Advanced filtering and drill-through analysis
-- Predictive analytics using machine learning
+
+## Author
+
+**Ahad Ahmad** — [@AhadAhmad0](https://github.com/AhadAhmad0)
