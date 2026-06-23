@@ -4,7 +4,8 @@ An interactive Power BI dashboard analyzing Blinkit's grocery sales performance 
 
 ## Dashboard Preview
 
-![Blinkit Dashboard](dashboard_preview.png)
+<img width="1282" height="731" alt="dashboard_preview" src="https://github.com/user-attachments/assets/1cc1e662-e55b-47fc-bcad-8481022f7ed7" />
+
 
 ## Problem Statement
 
